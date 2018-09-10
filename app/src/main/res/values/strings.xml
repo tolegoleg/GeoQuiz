@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ЭКЗАМЕНАТОР</string>
+    <string name="true_button">ДА</string>
+    <string name="false_button">НЕТ</string>
+    <string name="next_button">СЛЕДУЮЩИЙ</string>
+    <string name="prev_button">ПРЕДЫДУЩИЙ</string>
+    <string name="correct_toast">ПРАВИЛЬНО !!!</string>
+    <string name="jugment_toast">БЫЛА ПОДСКАЗКА !</string>
+    <string name="incorrect_toast">ВЫ ОШИБЛИСЬ :(</string>
+    <string name="question_01">Москва, это столица Украины? (01)</string>
+    <string name="question_02">Копенгаген, это столица Дании? (02)</string>
+    <string name="question_03">Будапешт, это столица Турции? (03)</string>
+    <string name="question_04">Нью-Йорк, это столица США? (04)</string>
+    <string name="question_05">Кувейт, это столица Гондураса? (05)</string>
+    <string name="question_06">Фивы, это столица Египта? (06)</string>
+    <string name="question_07">Хамунаптра, это столица Патагонии? (07)</string>
+    <string name="question_08">Брюссель, это столица Евросоюза? (08)</string>
+    <string name="question_09">Кадебостани, это страна? (09)</string>
+    <string name="question_10">Хунь-Плюнь, это столица Китая? (10)</string>
+    <string name="warning_text">Вы уверены, что хотите это?</string>
+    <string name="show_answer_button">Показать ответ</string>
+    <string name="cheat_button">ПОДСКАЗКА</string>
+</resources>

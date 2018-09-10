@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorOrange"
+        android:textColor="@color/colorBlack"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="@string/true_button" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="@string/false_button"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/prev_button"
+        android:drawablePadding="6dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/arrow_left"
+        android:text="@string/prev_button"
+        android:layout_gravity="bottom|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:drawablePadding="6dp"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/arrow_right"
+        android:text="@string/next_button"
+        android:layout_gravity="bottom|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/count_cheats_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Осталось 5"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cheat_button"
+            android:text="@string/cheat_button"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OnExitButtonClick"
+            android:text="ВЫХОД"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="bottom"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+        <ImageButton
+            android:contentDescription="@string/prev_button"
+            android:id="@+id/prev_imbutton"
+            android:layout_margin="26dp"
+            android:src="@drawable/arrow_left"
+            android:layout_gravity="center|left"
+            android:layout_width="46dp"
+            android:layout_height="46dp" />
+
+        <ImageButton
+            android:contentDescription="@string/next_button"
+            android:id="@+id/next_imbutton"
+            android:layout_margin="26dp"
+            android:src="@drawable/arrow_right"
+            android:layout_gravity="center|right"
+            android:layout_width="46dp"
+            android:layout_height="46dp" />
+
+</FrameLayout>
+
